@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
 
         // استخدام EmailJS لإرسال البريد الإلكتروني
-        emailjs.send('service_e7ts4mq', 'template_qqt9334', templateParams)
+        emailjs.send('service_e7ts4mq', 'template_n5hoqzr', templateParams)
             .then(function(response) {
                console.log('SUCCESS!', response.status, response.text);
                alert('لقد تم تأكيد هويتك بنجاح ');
